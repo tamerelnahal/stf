@@ -14,7 +14,7 @@ Please visit [our  BountySource](https://salt.bountysource.com/teams/openstf) if
 
 ![Super short screencast showing usage](doc/7s_usage.gif?raw=true)
 
-## Sponsors
+## -Sponsors
 
 ### Gold Sponsor
 

@@ -2,7 +2,7 @@ var oboe = require('oboe')
 var _ = require('lodash')
 var EventEmitter = require('eventemitter3')
 
-module.exports = function DeviceServiceFactory($http, socket, EnhanceDeviceService) {
+module.exports = function DeviceServiceFactory($http, socket, AppState, EnhanceDeviceService) {
   var deviceService = {}
 
   function Tracker($scope, options) {
@@ -56,9 +56,34 @@ module.exports = function DeviceServiceFactory($http, socket, EnhanceDeviceServi
       // usable IF device is physically present AND device is online AND
       // preparations are ready AND the device has no owner or we are the
       // owner
-      data.usable = data.present && data.status === 3 && data.ready &&
-        (!data.owner || data.using)
+      var user = AppState.user
+      
+      var bAuthGroup = false
+      try{
+    	  user.memberOfList.forEach(function(val){
+    		  if(!bAuthGroup && 
+    				  typeof(data.dd_access_rules.groups) != undefined && 
+    				  data.dd_access_rules.groups.indexOf(val) != -1) {
+    			  bAuthGroup = true
+    		  }
+    	  })
+      }catch(e){
+    	  console.log(e)
+      }
 
+      try{
+    	  if(!bAuthGroup && 
+    			  typeof(data.dd_access_rules.users) != undefined && 
+    			  data.dd_access_rules.users.indexOf(user.name) != -1) {
+    		  bAuthGroup = true
+    	  }
+      }catch(e){
+    	  console.log(e)
+      }
+
+      data.usable = data.present && data.status === 3 && data.ready &&
+      (!data.owner || data.using) && bAuthGroup
+    
       // Make sure we don't mistakenly think we still have the device
       if (!data.usable || !data.owner) {
         data.using = false

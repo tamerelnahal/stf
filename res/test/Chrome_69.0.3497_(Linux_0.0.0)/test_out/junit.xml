@@ -1,0 +1,263 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome 69.0.3497 (Linux 0.0.0)" package="jqLite" timestamp="2018-10-10T13:08:14" id="0" hostname="elnahalt" tests="77" errors="0" failures="6" time="0.305">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"/>
+  </properties>
+  <testcase name="angularDraggabilly should ..." time="0.017" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.angularDraggabilly"/>
+  <testcase name="angularPackery should ..." time="0.004" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.angularPackery"/>
+  <testcase name="basicMode should ..." time="0.002" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.basicMode"/>
+  <testcase name="BrowserInfo should ..." time="0.001" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.BrowserInfo"/>
+  <testcase name="badgeIcon should ..." time="0.006" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.badgeIcon"/>
+  <testcase name="blurElement should ..." time="0.003" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.blurElement"/>
+  <testcase name="clearButton should display a text label" time="0.009" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.clearButton"/>
+  <testcase name="clearButton should display a trash icon" time="0.006" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.clearButton"/>
+  <testcase name="counter should ..." time="0.004" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.counter"/>
+  <testcase name="enableAutofill should ..." time="0.009" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.enableAutofill"/>
+  <testcase name="errorMessage should ..." time="0.003" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.errorMessage"/>
+  <testcase name="fallbackImage should ..." time="0.003" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.fallbackImage"/>
+  <testcase name="filterButton should ..." time="0.003" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.filterButton"/>
+  <testcase name="focusElement should ..." time="0.003" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.focusElement"/>
+  <testcase name="iconInsideInput should ..." time="0.002" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.iconInsideInput"/>
+  <testcase name="includeCached should ..." time="0.003" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.includeCached"/>
+  <testcase name="FatalMessageService should ..." time="0.004" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.FatalMessageService"/>
+  <testcase name="ExternalUrlModalService should ..." time="0.003" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.ExternalUrlModalService"/>
+  <testcase name="FatalMessageService should ..." time="0.003" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.FatalMessageService"/>
+  <testcase name="LightboxImageService should ..." time="0.003" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.LightboxImageService"/>
+  <testcase name="SocketDisconnectedService should ..." time="0.002" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.SocketDisconnectedService"/>
+  <testcase name="VersionUpdateService should ..." time="0.002" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.VersionUpdateService"/>
+  <testcase name="ngEnter should ..." time="0.004" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.ngEnter"/>
+  <testcase name="niceTabs should ..." time="0.002" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.niceTabs"/>
+  <testcase name="refreshPage should ..." time="0.001" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.refreshPage"/>
+  <testcase name="textFocusSelect should ..." time="0.004" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.textFocusSelect"/>
+  <testcase name="tooltips should ..." time="0.003" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.tooltips"/>
+  <testcase name="deviceContextMenu should ..." time="0.003" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.deviceContextMenu"/>
+  <testcase name="FilterStringService should ..." time="0.002" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.FilterStringService"/>
+  <testcase name="imageOnload should ..." time="0.003" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.imageOnload"/>
+  <testcase name="install should ..." time="0.002" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.install"/>
+  <testcase name="addAdbKey should ..." time="0.01" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.addAdbKey"/>
+  <testcase name="landscape should ..." time="0.004" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.landscape"/>
+  <testcase name="logcatTable should ..." time="0.004" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.logcatTable"/>
+  <testcase name="LogcatService should ..." time="0.002" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.LogcatService"/>
+  <testcase name="NativeUrlService should ..." time="0.002" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.NativeUrlService"/>
+  <testcase name="navMenu should ..." time="0.003" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.navMenu"/>
+  <testcase name="PortForwardingService should ..." time="0.001" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.PortForwardingService"/>
+  <testcase name="ScopedHotkeysService should ..." time="0.018" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.ScopedHotkeysService"/>
+  <testcase name="screenKeyboard should ..." time="0.003" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.screenKeyboard"/>
+  <testcase name="screenTouch should ..." time="0.004" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.screenTouch"/>
+  <testcase name="textHistory should ..." time="0.002" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.textHistory"/>
+  <testcase name="TimelineService should ..." time="0.001" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.TimelineService"/>
+  <testcase name="timelineMessage should ..." time="0.003" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.timelineMessage"/>
+  <testcase name="timelines should ..." time="0.002" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.timelines"/>
+  <testcase name="upload should ..." time="0.002" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.upload"/>
+  <testcase name="ActivityCtrl should ..." time="0.005" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.ActivityCtrl"/>
+  <testcase name="AdvancedCtrl should ..." time="0.002" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.AdvancedCtrl"/>
+  <testcase name="InputAdvancedCtrl should ..." time="0.002" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.InputAdvancedCtrl"/>
+  <testcase name="MaintenanceCtrl should ..." time="0.001" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.MaintenanceCtrl"/>
+  <testcase name="PortForwardingCtrl should ..." time="0.016" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.PortForwardingCtrl">
+    <failure type="">Error: [$injector:unpr] Unknown provider: AddAdbKeyModalServiceProvider &lt;- AddAdbKeyModalService &lt;- UserService &lt;- SettingsService
+http://errors.angularjs.org/1.5.11/$injector/unpr?p0=AddAdbKeyModalServiceProvider%20%3C-%20AddAdbKeyModalService%20%3C-%20UserService%20%3C-%20SettingsService
+    at helpers/helper.js:122:13
+    at helpers/helper.js:4617:20
+    at Object.getService [as get] (helpers/helper.js:4770:33)
+    at helpers/helper.js:4622:46
+    at getService (helpers/helper.js:4770:33)
+    at injectionArgs (helpers/helper.js:4795:59)
+    at Object.invoke (helpers/helper.js:4817:19)
+    at Object.enforcedReturnValue [as $get] (helpers/helper.js:4663:38)
+    at Object.invoke (helpers/helper.js:4825:20)
+    at helpers/helper.js:4623:38
+    at getService (helpers/helper.js:4770:33)
+    at injectionArgs (helpers/helper.js:4795:59)
+    at Object.invoke (helpers/helper.js:4817:19)
+    at Object.enforcedReturnValue [as $get] (helpers/helper.js:4663:38)
+    at Object.invoke (helpers/helper.js:4825:20)
+    at helpers/helper.js:4623:38
+    at getService (helpers/helper.js:4770:33)
+    at injectionArgs (helpers/helper.js:4795:59)
+    at Object.instantiate (helpers/helper.js:4837:19)
+    at $controller (helpers/helper.js:10661:29)
+    at helpers/helper.js:34932:15
+    at UserContext.&lt;anonymous&gt; (/home/tamer/git/stf/res/app/control-panes/advanced/port-forwarding/port-forwarding-spec.js:55:13)
+    at Object.invoke (helpers/helper.js:4825:20)
+    at UserContext.WorkFn (helpers/helper.js:35813:21)
+Error: Declaration Location
+    at window.inject.angular.mock.inject (helpers/helper.js:35776:26)
+    at Suite.&lt;anonymous&gt; (/home/tamer/git/stf/res/app/control-panes/advanced/port-forwarding/port-forwarding-spec.js:53:15)
+    at Object.module.exports (/home/tamer/git/stf/res/app/control-panes/advanced/port-forwarding/port-forwarding-spec.js:47:2)
+    at __webpack_require__ (/home/tamer/git/stf/res/app/control-panes/advanced/port-forwarding/port-forwarding-spec.js:20:30)
+    at module.exports (/home/tamer/git/stf/res/app/control-panes/advanced/port-forwarding/port-forwarding-spec.js:40:18)
+    at /home/tamer/git/stf/res/app/control-panes/advanced/port-forwarding/port-forwarding-spec.js:43:10
+</failure>
+  </testcase>
+  <testcase name="RunJsCtrl should ..." time="0.002" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.RunJsCtrl"/>
+  <testcase name="UsbCtrl should ..." time="0.002" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.UsbCtrl"/>
+  <testcase name="VNCCtrl should ..." time="0.002" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.VNCCtrl"/>
+  <testcase name="DeviceSettingsCtrl should ..." time="0.002" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.DeviceSettingsCtrl"/>
+  <testcase name="StoreAccountCtrl should ..." time="0.004" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.StoreAccountCtrl">
+    <failure type="">Error: [$injector:unpr] Unknown provider: ngTableParamsProvider &lt;- ngTableParams &lt;- StoreAccountCtrl
+http://errors.angularjs.org/1.5.11/$injector/unpr?p0=ngTableParamsProvider%20%3C-%20ngTableParams%20%3C-%20StoreAccountCtrl
+    at helpers/helper.js:122:13
+    at helpers/helper.js:4617:20
+    at Object.getService [as get] (helpers/helper.js:4770:33)
+    at helpers/helper.js:4622:46
+    at getService (helpers/helper.js:4770:33)
+    at injectionArgs (helpers/helper.js:4795:59)
+    at Object.instantiate (helpers/helper.js:4837:19)
+    at $controller (helpers/helper.js:10661:29)
+    at helpers/helper.js:34932:15
+    at UserContext.&lt;anonymous&gt; (/home/tamer/git/stf/res/app/control-panes/automation/store-account/store-account-spec.js:56:13)
+    at Object.invoke (helpers/helper.js:4825:20)
+    at UserContext.WorkFn (helpers/helper.js:35813:21)
+Error: Declaration Location
+    at window.inject.angular.mock.inject (helpers/helper.js:35776:26)
+    at Suite.&lt;anonymous&gt; (/home/tamer/git/stf/res/app/control-panes/automation/store-account/store-account-spec.js:54:15)
+    at Object.0 (/home/tamer/git/stf/res/app/control-panes/automation/store-account/store-account-spec.js:48:2)
+    at __webpack_require__ (/home/tamer/git/stf/res/app/control-panes/automation/store-account/store-account-spec.js:20:30)
+    at 0 (/home/tamer/git/stf/res/app/control-panes/automation/store-account/store-account-spec.js:40:18)
+    at /home/tamer/git/stf/res/app/control-panes/automation/store-account/store-account-spec.js:43:10
+</failure>
+  </testcase>
+  <testcase name="CpuCtrl should ..." time="0.002" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.CpuCtrl"/>
+  <testcase name="ClipboardCtrl should ..." time="0.003" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.ClipboardCtrl"/>
+  <testcase name="DashboardCtrl should ..." time="0.004" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.DashboardCtrl"/>
+  <testcase name="ActivitiesCtrl should ..." time="0.005" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.ActivitiesCtrl"/>
+  <testcase name="InstallCtrl should ..." time="0.013" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.InstallCtrl"/>
+  <testcase name="NavigationCtrl should ..." time="0.003" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.NavigationCtrl"/>
+  <testcase name="RemoteDebugCtrl should ..." time="0.002" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.RemoteDebugCtrl"/>
+  <testcase name="ShellCtrl should clear the results" time="0.004" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.ShellCtrl"/>
+  <testcase name="FsCtrl should ..." time="0.003" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.FsCtrl">
+    <failure type="">TypeError: Cannot read property 'fslist' of undefined
+    at listDir (/home/tamer/git/stf/res/app/control-panes/explorer/explorer-spec.js:517:21)
+    at new ExplorerCtrl (/home/tamer/git/stf/res/app/control-panes/explorer/explorer-spec.js:565:4)
+    at Object.instantiate (helpers/helper.js:4840:15)
+    at $controller (helpers/helper.js:10661:29)
+    at helpers/helper.js:34932:15
+    at UserContext.&lt;anonymous&gt; (/home/tamer/git/stf/res/app/control-panes/explorer/explorer-spec.js:56:13)
+    at Object.invoke (helpers/helper.js:4825:20)
+    at UserContext.WorkFn (helpers/helper.js:35813:21)
+Error: Declaration Location
+    at window.inject.angular.mock.inject (helpers/helper.js:35776:26)
+    at Suite.&lt;anonymous&gt; (/home/tamer/git/stf/res/app/control-panes/explorer/explorer-spec.js:54:15)
+    at Object.0 (/home/tamer/git/stf/res/app/control-panes/explorer/explorer-spec.js:48:2)
+    at __webpack_require__ (/home/tamer/git/stf/res/app/control-panes/explorer/explorer-spec.js:20:30)
+    at 0 (/home/tamer/git/stf/res/app/control-panes/explorer/explorer-spec.js:40:18)
+    at /home/tamer/git/stf/res/app/control-panes/explorer/explorer-spec.js:43:10
+</failure>
+  </testcase>
+  <testcase name="InfoCtrl should ..." time="0.006" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.InfoCtrl"/>
+  <testcase name="InspectCtrl should ..." time="0.003" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.InspectCtrl"/>
+  <testcase name="LogsCtrl should ..." time="0.01" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.LogsCtrl"/>
+  <testcase name="CpuCtrl should ..." time="0.001" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.CpuCtrl"/>
+  <testcase name="PerformanceCtrl should ..." time="0.003" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.PerformanceCtrl"/>
+  <testcase name="ResourcesCtrl should ..." time="0.002" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.ResourcesCtrl"/>
+  <testcase name="ScreenshotsCtrl should ..." time="0.002" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.ScreenshotsCtrl"/>
+  <testcase name="MenuCtrl should ..." time="0.005" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.MenuCtrl">
+    <failure type="">Error: [$injector:unpr] Unknown provider: AddAdbKeyModalServiceProvider &lt;- AddAdbKeyModalService &lt;- UserService &lt;- SettingsService
+http://errors.angularjs.org/1.5.11/$injector/unpr?p0=AddAdbKeyModalServiceProvider%20%3C-%20AddAdbKeyModalService%20%3C-%20UserService%20%3C-%20SettingsService
+    at helpers/helper.js:122:13
+    at helpers/helper.js:4617:20
+    at Object.getService [as get] (helpers/helper.js:4770:33)
+    at helpers/helper.js:4622:46
+    at getService (helpers/helper.js:4770:33)
+    at injectionArgs (helpers/helper.js:4795:59)
+    at Object.invoke (helpers/helper.js:4817:19)
+    at Object.enforcedReturnValue [as $get] (helpers/helper.js:4663:38)
+    at Object.invoke (helpers/helper.js:4825:20)
+    at helpers/helper.js:4623:38
+    at getService (helpers/helper.js:4770:33)
+    at injectionArgs (helpers/helper.js:4795:59)
+    at Object.invoke (helpers/helper.js:4817:19)
+    at Object.enforcedReturnValue [as $get] (helpers/helper.js:4663:38)
+    at Object.invoke (helpers/helper.js:4825:20)
+    at helpers/helper.js:4623:38
+    at getService (helpers/helper.js:4770:33)
+    at injectionArgs (helpers/helper.js:4795:59)
+    at Object.instantiate (helpers/helper.js:4837:19)
+    at $controller (helpers/helper.js:10661:29)
+    at helpers/helper.js:34932:15
+    at UserContext.&lt;anonymous&gt; (/home/tamer/git/stf/res/app/menu/menu-spec.js:56:13)
+    at Object.invoke (helpers/helper.js:4825:20)
+    at UserContext.WorkFn (helpers/helper.js:35813:21)
+Error: Declaration Location
+    at window.inject.angular.mock.inject (helpers/helper.js:35776:26)
+    at Suite.&lt;anonymous&gt; (/home/tamer/git/stf/res/app/menu/menu-spec.js:54:15)
+    at Object.0 (/home/tamer/git/stf/res/app/menu/menu-spec.js:48:2)
+    at __webpack_require__ (/home/tamer/git/stf/res/app/menu/menu-spec.js:20:30)
+    at 0 (/home/tamer/git/stf/res/app/menu/menu-spec.js:40:18)
+    at /home/tamer/git/stf/res/app/menu/menu-spec.js:43:10
+</failure>
+  </testcase>
+  <testcase name="GeneralCtrl should ..." time="0.003" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.GeneralCtrl"/>
+  <testcase name="AccessTokensCtrl should ..." time="0.004" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.AccessTokensCtrl">
+    <failure type="">Error: [$injector:unpr] Unknown provider: socketProvider &lt;- socket &lt;- AccessTokenService
+http://errors.angularjs.org/1.5.11/$injector/unpr?p0=socketProvider%20%3C-%20socket%20%3C-%20AccessTokenService
+    at helpers/helper.js:122:13
+    at helpers/helper.js:4617:20
+    at Object.getService [as get] (helpers/helper.js:4770:33)
+    at helpers/helper.js:4622:46
+    at getService (helpers/helper.js:4770:33)
+    at injectionArgs (helpers/helper.js:4795:59)
+    at Object.invoke (helpers/helper.js:4817:19)
+    at Object.enforcedReturnValue [as $get] (helpers/helper.js:4663:38)
+    at Object.invoke (helpers/helper.js:4825:20)
+    at helpers/helper.js:4623:38
+    at getService (helpers/helper.js:4770:33)
+    at injectionArgs (helpers/helper.js:4795:59)
+    at Object.instantiate (helpers/helper.js:4837:19)
+    at $controller (helpers/helper.js:10661:29)
+    at helpers/helper.js:34932:15
+    at UserContext.&lt;anonymous&gt; (/home/tamer/git/stf/res/app/settings/keys/access-tokens/access-tokens-spec.js:56:13)
+    at Object.invoke (helpers/helper.js:4825:20)
+    at UserContext.WorkFn (helpers/helper.js:35813:21)
+Error: Declaration Location
+    at window.inject.angular.mock.inject (helpers/helper.js:35776:26)
+    at Suite.&lt;anonymous&gt; (/home/tamer/git/stf/res/app/settings/keys/access-tokens/access-tokens-spec.js:54:15)
+    at Object.0 (/home/tamer/git/stf/res/app/settings/keys/access-tokens/access-tokens-spec.js:48:2)
+    at __webpack_require__ (/home/tamer/git/stf/res/app/settings/keys/access-tokens/access-tokens-spec.js:20:30)
+    at 0 (/home/tamer/git/stf/res/app/settings/keys/access-tokens/access-tokens-spec.js:40:18)
+    at /home/tamer/git/stf/res/app/settings/keys/access-tokens/access-tokens-spec.js:43:10
+</failure>
+  </testcase>
+  <testcase name="AdbKeysCtrl should ..." time="0.006" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.AdbKeysCtrl">
+    <failure type="">Error: [$injector:unpr] Unknown provider: UserServiceProvider &lt;- UserService &lt;- AdbKeysCtrl
+http://errors.angularjs.org/1.5.11/$injector/unpr?p0=UserServiceProvider%20%3C-%20UserService%20%3C-%20AdbKeysCtrl
+    at helpers/helper.js:122:13
+    at helpers/helper.js:4617:20
+    at Object.getService [as get] (helpers/helper.js:4770:33)
+    at helpers/helper.js:4622:46
+    at getService (helpers/helper.js:4770:33)
+    at injectionArgs (helpers/helper.js:4795:59)
+    at Object.instantiate (helpers/helper.js:4837:19)
+    at $controller (helpers/helper.js:10661:29)
+    at helpers/helper.js:34932:15
+    at UserContext.&lt;anonymous&gt; (/home/tamer/git/stf/res/app/settings/keys/adb-keys/adb-keys-spec.js:56:13)
+    at Object.invoke (helpers/helper.js:4825:20)
+    at UserContext.WorkFn (helpers/helper.js:35813:21)
+Error: Declaration Location
+    at window.inject.angular.mock.inject (helpers/helper.js:35776:26)
+    at Suite.&lt;anonymous&gt; (/home/tamer/git/stf/res/app/settings/keys/adb-keys/adb-keys-spec.js:54:15)
+    at Object.0 (/home/tamer/git/stf/res/app/settings/keys/adb-keys/adb-keys-spec.js:48:2)
+    at __webpack_require__ (/home/tamer/git/stf/res/app/settings/keys/adb-keys/adb-keys-spec.js:20:30)
+    at 0 (/home/tamer/git/stf/res/app/settings/keys/adb-keys/adb-keys-spec.js:40:18)
+    at /home/tamer/git/stf/res/app/settings/keys/adb-keys/adb-keys-spec.js:43:10
+</failure>
+  </testcase>
+  <testcase name="KeysCtrl should ..." time="0.003" classname="Chrome_69_0_3497_(Linux_0_0_0).jqLite.KeysCtrl"/>
+  <system-out>
+    <![CDATA[Chrome 69.0.3497 (Linux 0.0.0) LOG: 'WARNING: Tried to load angular more than once.'
+,Chrome 69.0.3497 (Linux 0.0.0) LOG: 'WARNING: Tried to load angular more than once.'
+,Chrome 69.0.3497 (Linux 0.0.0) LOG: 'WARNING: Tried to load angular more than once.'
+,Chrome 69.0.3497 (Linux 0.0.0) LOG: 'WARNING: Tried to load angular more than once.'
+,Chrome 69.0.3497 (Linux 0.0.0) LOG: 'WARNING: Tried to load angular more than once.'
+,Chrome 69.0.3497 (Linux 0.0.0) LOG: 'WARNING: Tried to load angular more than once.'
+,Chrome 69.0.3497 (Linux 0.0.0) LOG: 'WARNING: Tried to load angular more than once.'
+,Chrome 69.0.3497 (Linux 0.0.0) LOG: 'WARNING: Tried to load angular more than once.'
+,Chrome 69.0.3497 (Linux 0.0.0) LOG: 'WARNING: Tried to load angular more than once.'
+,Chrome 69.0.3497 (Linux 0.0.0) LOG: 'WARNING: Tried to load angular more than once.'
+,Chrome 69.0.3497 (Linux 0.0.0) LOG: 'WARNING: Tried to load angular more than once.'
+,Chrome 69.0.3497 (Linux 0.0.0) LOG: 'WARNING: Tried to load angular more than once.'
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

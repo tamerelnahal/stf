@@ -1,4 +1,5 @@
 *.mo
+.project
 .DS_Store
 .eslintcache
 .idea/

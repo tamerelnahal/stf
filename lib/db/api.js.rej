@@ -1,0 +1,20 @@
+--- lib/db/api.js
++++ lib/db/api.js
+@@ -21,6 +21,8 @@ dbapi.close = function(options) {
+ dbapi.saveUserAfterLogin = function(user) {
+   return db.run(r.table('users').get(user.email).update({
+       name: user.name
++    , displayName: user.displayName
++    , memberOfList: user.memberOfList
+     , ip: user.ip
+     , lastLoggedInAt: r.now()
+     }))
+@@ -29,6 +31,8 @@ dbapi.saveUserAfterLogin = function(user) {
+         return db.run(r.table('users').insert({
+           email: user.email
+         , name: user.name
++        , displayName: user.displayName
++        , memberOfList: user.memberOfList
+         , ip: user.ip
+         , group: wireutil.makePrivateChannel()
+         , lastLoggedInAt: r.now()

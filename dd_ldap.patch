@@ -1,0 +1,64 @@
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index 6cb8380b..156b7a5c 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -1,16 +1,10 @@
+ # Changelog
+ 
+-## HEAD
+-
+-### Enhancements
+-
+-- Exposed the [`ZMQ_IPV6`](http://api.zeromq.org/3-3:zmq-ctx-set#toc5) environment variable, making it possible to enable IPv6 for ZeroMQ. Thanks @aokhotin!
+-
+ ## 3.4.0 (2018-08-09)
+ 
+ ### Enhancements
+ 
+-- Android 9.0 is now supported. This feature was sponsored by [HeadSpin](https://headspin.io/).
++- Android 9.0 is now supported.
+ - The OAuth2 unit now supports state tokens. Thanks @quangola!
+ - [STFService.apk](https://github.com/openstf/STFService.apk) can now display the identity activity (red screen) automatically if a device gets disconnected from USB (or ADB), which can make maintenance easier. This feature is in beta, please enable it by running `adb shell pm grant jp.co.cyberagent.stf android.permission.DUMP` on the devices you want to try it on. Thanks @Malinskiy!
+ 
+diff --git a/README.md b/README.md
+index 733c83ea..0563e689 100644
+--- a/README.md
++++ b/README.md
+@@ -18,9 +18,9 @@ Please visit [our  BountySource](https://salt.bountysource.com/teams/openstf) if
+ 
+ ### Gold Sponsor
+ 
+-[<img src="doc/sponsors/headspin-wordmark-orange.png?raw=true" alt="HeadSpin" width="400">](https://headspin.io/)
++[<img src="doc/sponsors/headspin-wordmark-orange.png?raw=true" alt="HeadSpin" width="400">](https://performance.headspin.io/)
+ 
+-> [HeadSpin](https://headspin.io/) enables developers launch high quality and high performing apps Worldwide. Using HeadSpin’s global distributed device cloud infrastructure, developers can test and monitor their apps instantly on 1,500 global cell networks and local devices. HeadSpin seamlessly plugs into your development workflow with no code changes to your apps.
++> [HeadSpin](https://performance.headspin.io/) enables developers launch high quality and high performing apps Worldwide. Using HeadSpin’s global distributed device cloud infrastructure, developers can test and monitor their apps instantly on 1,500 global cell networks and local devices. HeadSpin seamlessly plugs into your development workflow with no code changes to your apps.
+ 
+ HeadSpin offers a generous monthly contribution towards STF development.
+ 
+diff --git a/lib/cli/auth-oauth2/index.js b/lib/cli/auth-oauth2/index.js
+index cc5dd28f..014798f8 100644
+--- a/lib/cli/auth-oauth2/index.js
++++ b/lib/cli/auth-oauth2/index.js
+@@ -57,7 +57,7 @@ module.exports.builder = function(yargs) {
+     .option('oauth-state', {
+       describe: 'Whether to enable OAuth 2.0 state token support.'
+     , type: 'boolean'
+-    , default: false
++    , default: true
+     })
+     .option('oauth-domain', {
+       describe: 'Optional email domain to allow authentication for.'
+diff --git a/lib/util/zmqutil.js b/lib/util/zmqutil.js
+index 5802ba6d..e551ee1d 100644
+--- a/lib/util/zmqutil.js
++++ b/lib/util/zmqutil.js
+@@ -11,7 +11,7 @@ var log = require('./logger').createLogger('util:zmqutil')
+ module.exports.socket = function() {
+   var sock = zmq.socket.apply(zmq, arguments)
+ 
+-  ;['ZMQ_TCP_KEEPALIVE', 'ZMQ_TCP_KEEPALIVE_IDLE', 'ZMQ_IPV6'].forEach(function(opt) {
++  ;['ZMQ_TCP_KEEPALIVE', 'ZMQ_TCP_KEEPALIVE_IDLE'].forEach(function(opt) {
+     if (process.env[opt]) {
+       try {
+         sock.setsockopt(zmq[opt], Number(process.env[opt]))
